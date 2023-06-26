@@ -19,3 +19,27 @@ https://rajninair.github.io/gamehub/
 Key
 8e942b8ec30d4549a57c22a430c705b1
 
+Chakra UI docs
+
+https://v0.chakra-ui.com/responsive-styles
+
+<>
+  <Box
+    height="40px"
+    bg="teal.400"
+    width={[
+      "100%", // base
+      "50%", // 480px upwards
+      "25%", // 768px upwards
+      "15%", // 992px upwards
+    ]}
+  />
+  {/* responsive font size */}
+  <Box fontSize={["sm", "md", "lg", "xl"]}>Font Size</Box>
+  {/* responsive margin */}
+  <Box mt={[2, 4, 6, 8]} width="full" height="24px" bg="tomato" />
+  {/* responsive padding */}
+  <Box bg="papayawhip" p={[2, 4, 6, 8]}>
+    Padding
+  </Box>
+</>
