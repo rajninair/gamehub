@@ -16,6 +16,7 @@ const GameGrid = ({ gameQuery }: Props) => {
   return (
     <div>
       {error && <Text>{error}</Text>}
+      {data.length === 0 && <Text>No games found with this selection..</Text>}
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
         padding="10px"
