@@ -1,4 +1,4 @@
-import { SimpleGrid, Text } from "@chakra-ui/react";
+import { HStack, SimpleGrid, Text } from "@chakra-ui/react";
 import useGames from "../hooks/useGames";
 import GameCard from "./GameCard";
 import GameCardSkeleton from "./GameCardSkeleton";
@@ -16,9 +16,12 @@ const GameGrid = ({ selectedGenre }: Props) => {
   return (
     <div>
       {selectedGenre ? (
-        <Text color={"blue"}>
-          Displaying Genre :<span>{selectedGenre?.name}</span>
-        </Text>
+        <HStack>
+          <Text> Displaying Genre :</Text>
+          <Text color="blue.500" fontWeight="bold">
+            {selectedGenre?.name}
+          </Text>
+        </HStack>
       ) : (
         <h3>Displaying all genres</h3>
       )}
