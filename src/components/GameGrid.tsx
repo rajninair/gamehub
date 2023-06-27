@@ -15,7 +15,7 @@ const GameGrid = ({ selectedGenre }: Props) => {
 
   return (
     <div>
-      {selectedGenre ? (
+      {/* {selectedGenre ? (
         <HStack>
           <Text> Displaying Genre :</Text>
           <Text color="blue.500" fontWeight="bold">
@@ -24,7 +24,7 @@ const GameGrid = ({ selectedGenre }: Props) => {
         </HStack>
       ) : (
         <h3>Displaying all genres</h3>
-      )}
+      )} */}
 
       {error && <Text>{error}</Text>}
       <SimpleGrid
