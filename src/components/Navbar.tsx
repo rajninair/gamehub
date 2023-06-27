@@ -1,5 +1,5 @@
 import { HStack, Image, Text } from "@chakra-ui/react";
-import logo from "../assets/react.svg";
+import logo from "../assets/logo.webp";
 import ColorModeSwitch from "./ColorModeSwitch";
 
 const Navbar = () => {
@@ -11,3 +11,4 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+ 
