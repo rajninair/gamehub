@@ -43,3 +43,34 @@ https://v0.chakra-ui.com/responsive-styles
     Padding
   </Box>
 </>
+
+
+Git Logs
+---------
+
+rajninair@Rajnis-MacBook-Air game-hub % git log --oneline
+10cf187 (HEAD -> main, origin/main) Cleanup the genres
+3b3caba Add a dynamic page header
+3b712d9 Implement searching
+08a4911 Build search input
+451fb57 Added flex container for the select platform dropdown
+e492b8c Handle games with no image
+c6eebaa Sort the games
+085f645 Build sort selector
+c1a5ad5 Refactor: Extract a query object, and add logo
+f3af3e4 Filter games by platform
+734672b Build platform selector
+1fe57b0 Highlight selected genre
+6249cd5 Filtered games by genre
+4c366ec Display genres
+8613e6e Created a generic data fetching hook
+2b58b5a Fetch the generes
+d8a5070 Refactor: Remove duplicate styles
+3afc1f5 Show loding skeletons
+15a6881 Get optimized images
+dab36ac Displaying credit score
+3ada71f Displaying platform icons
+dd80fc4 Building game card
+097cba4 Readme file added
+
+
